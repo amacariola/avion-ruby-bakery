@@ -1,5 +1,3 @@
-# Recursive Backtracking search implementation
-
 module Bakery
   class Recursion
     attr_reader :packs
@@ -42,7 +40,6 @@ module Bakery
       end
     end
 
-    # Inner context for recursive search
     class Context
       attr_reader :min_count, :solution, :min_solution
 
