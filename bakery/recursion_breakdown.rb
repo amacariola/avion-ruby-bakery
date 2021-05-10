@@ -1,7 +1,7 @@
 # Recursive Backtracking search implementation
 
 module Bakery
-  class Backtracking
+  class Recursion
     attr_reader :packs
 
     def initialize( packs )

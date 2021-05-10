@@ -2,7 +2,7 @@ module Bakery
   class Product
     attr_reader :packs, :pack_keys
 
-    def initialize( packs, b_klass = Backtracking )
+    def initialize( packs, b_klass = Recursion )
       @packs  = packs
       @pack_keys  = b_klass.new( packs.keys )
     end
