@@ -1,6 +1,6 @@
 
 
-require_relative 'bakery/bakery'
+require_relative 'ruby-bakery/bakery'
 
 def print_cost_and_breakdown( cost_breakdown )
   sum = cost_breakdown.values.reduce( 0 ) do |memo, pack|
